@@ -35,5 +35,9 @@ nav{
 }
 
 nav > a:hover{
-    color: #ccc
+    color: #5c3d13;
+}
+
+p{
+    color: #fff
 }
