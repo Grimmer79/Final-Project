@@ -20,14 +20,29 @@
         <a href="./contact.html" target="_blank"><p>Contact</p></a>
     </nav> 
 
-    <section>
-        <video width="320" height="240" autoplay>
-            <source src="movie.mp4" type="video/mp4">
-            <source src="movie.ogg" type="video/ogg">
-          </video>
-    </section>
-    <article></article>
-    <aside></aside>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+      
+          <label for="eadress">Email Address</label>
+          <input type="text" id="eadress" name="emailaddress" placeholder="Your emailaddress..">
+      
+          <label for="project">Project</label>
+          <select id="project" name="project">
+            <option value="furniture">Furniture</option>
+            <option value="clock">Clock</option>
+            <option value="Sign">Sign</option>
+          </select>
+      
+          <label for="pdetails">Project Details</label>
+          <textarea id="pdetails" name="pdetails" placeholder="Costumize Your Project." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 
     <footer></footer>
 </body>
