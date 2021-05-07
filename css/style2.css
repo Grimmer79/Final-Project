@@ -41,12 +41,17 @@ nav > a:hover{
 p{
     color: #fff
 }
+article{
+    width: 500px;
+    height: 400px;
+    background-color: black;
+}
 
 footer{
     background-color: #0a70c2;
 }
 
-a{
+nav a{
     margin: 0px 10px 10px;
     color: inherit;
     font-size: 25px;
