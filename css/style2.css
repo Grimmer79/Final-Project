@@ -37,6 +37,7 @@ nav{
 
 nav > a:hover{
     color: #5c3d13;
+    opacity: 1;
 }
 
 p{
@@ -50,6 +51,7 @@ article{
 
 footer{
     background-color: #0a70c2;
+    display: grid;
 }
 
 nav a{
@@ -57,4 +59,16 @@ nav a{
     color: inherit;
     font-size: 25px;
     text-decoration: none;
+}
+
+section{
+    width: 500px;
+    height: 700px;
+    float: left;
+}
+
+article{
+    float: right;
+    width: 500px;
+    height: 700px;
 }
