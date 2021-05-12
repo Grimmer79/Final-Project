@@ -1,5 +1,11 @@
+*<link href="https://fonts.googleapis.com/css2?family=Overpass&family=Texturina:wght@400;600&display=swap" rel="stylesheet">
+
+*{
+    box-sizing: border-box;
+}
+
 body{
-    margin: 0;
+    margin: 0px;
     background-color: #fff;
 }
 
@@ -41,17 +47,33 @@ nav > a:hover{
 }
 
 p{
-    color: #fff
+    color: #fff;
+    font-family: 'Texturina', serif;
 }
-article{
-    width: 500px;
-    height: 400px;
-    background-color: black;
+
+.padding:{
+    color: #0a70c2; 
+
+}
+
+h2 {
+    font-family: 'Texturina', serif;
+    text-align: center;
+    color: #5c3d13;
+    font-weight: 600px:
+}
+
+h4{
+    font-family: 'Texturina', serif;
+    color: #0a70c2;
+    text-align: center;
 }
 
 footer{
     background-color: #0a70c2;
-    display: grid;
+    display: flex;
+    padding: 10px;
+    justify-content: flex space-between;
 }
 
 nav a{
@@ -61,16 +83,16 @@ nav a{
     text-decoration: none;
 }
 
-section{
-    width: 500px;
-    height: 700px;
-    float: left;
+footer img {
+    margin-bottom: 5px;
+    height: 50px;
+    width: 50px;
+    display: flexbox;
 }
 
-article{
-    float: right;
-    width: 500px;
-    height: 700px;
+.sitemap {
+    text-align: right;
+    padding: 10px;
 }
 
 form{
@@ -109,4 +131,51 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+  }
+
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
