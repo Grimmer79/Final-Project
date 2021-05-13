@@ -2,6 +2,7 @@
 
 *{
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 body{
@@ -56,11 +57,11 @@ p{
 
 }
 
-h2 {
+h1 {
     font-family: 'Texturina', serif;
     text-align: center;
     color: #5c3d13;
-    font-weight: 600px:
+    font-size: 50px;
 }
 
 h4{
@@ -69,30 +70,42 @@ h4{
     text-align: center;
 }
 
+div video{
+  justify-content: right;
+}
+
 footer{
-    background-color: #0a70c2;
-    display: flex;
-    padding: 10px;
-    justify-content: flex space-between;
+  position: sticky;
+  background-color: #0a70c2;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  box-shadow: 0 1px 4px rgba(0,0,0, .4);
+  border: outset;    
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Overpass', sans-serif;
+  text-align:justify;
+  display: flex;
+  margin: 0px 10px 0px;
 }
 
 nav a{
-    margin: 0px 10px 10px;
+    margin: 10px 10px 10px;
     color: inherit;
     font-size: 25px;
     text-decoration: none;
 }
 
 footer img {
-    margin-bottom: 5px;
     height: 50px;
     width: 50px;
-    display: flexbox;
-}
-
-.sitemap {
-    text-align: right;
-    padding: 10px;
+    ;
 }
 
 form{
@@ -149,8 +162,10 @@ input[type=text], select, textarea {
   div.desc {
     padding: 15px;
     text-align: center;
-    font-family: 'Overpass', serif;
+    font-family: 'Overpass', sans-serif;
     color: #5c3d13;
+    font-size: 20px;
+    font-weight: 600;
   }
   
   * {
