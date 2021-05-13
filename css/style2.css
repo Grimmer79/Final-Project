@@ -72,6 +72,7 @@ h1 {
     text-align: center;
     color: #5c3d13;
     font-size: 50px;
+    font-weight: 600;
 }
 
 h3 {
@@ -85,6 +86,9 @@ h4{
     font-family: 'Texturina', serif;
     color: #0a70c2;
     text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+
 }
 
 footer{
