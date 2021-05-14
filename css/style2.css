@@ -15,11 +15,6 @@ header {
     height: 10vh;
 }
 
-footer {
-  width: 100%;
-  height: 5vh;
-}
-
 header{
     background-color: #fff;
     align-items: center;
@@ -116,13 +111,13 @@ h4{
 }
 
 footer{
-  position: sticky;
+  width: 100%;
+  height: 5vh;
   background-color: #0a70c2;
   padding: 4px;
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 100%;
   box-shadow: 0 1px 4px rgba(0,0,0, .4);
   border: outset;    
 }
